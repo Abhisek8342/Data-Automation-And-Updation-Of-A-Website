@@ -1,0 +1,82 @@
+#sugallerys{
+    display: grid;
+    position: relative;
+    overflow-x: hidden;
+    top: 80px;
+}
+.sugallery1{
+    position: relative;
+    top: -190px;
+}
+#suggl1{
+    position: relative;
+    left: 160px;
+    /* top: 100px; */
+}
+#suggl2{
+    position: relative;
+    left: 160px;
+    /* top: 100px; */
+}
+.galayhead{
+    color: brown;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    font: 2.5em sans-serif bold;
+}
+.galayhead1{
+    position: relative;
+    top: 110px;
+    text-align: center;
+}
+#btngally{
+    background-color: brown;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    height: 4rem;
+    width: 10rem;
+    font-size: 2rem;
+}
+#btngally:hover {
+    background-color:#C63D2F;
+    color: #F1F0E8;
+    transition: 8000 ease-out ;
+}
+
+@media screen and (max-width:900px){
+
+    #suggl1{
+        position: relative;
+        left: 100px;
+    
+    }
+    #suggl2{
+        position: relative;
+        left: 100px;
+        
+    }
+    #btngally{
+        height: 2.3rem;
+        width: 5rem;
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+    .sugallery1{
+        position: relative;
+        top: 1950px;
+    }
+    #btngally{
+        background-color: brown;
+        color: aliceblue;
+        border: none;
+        border-radius: 5px;
+        height: 3rem;
+        width: 8rem;
+        font-size: 2rem;
+    }
+    
+}

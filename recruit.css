@@ -1,0 +1,75 @@
+ /* Add your styles here */
+ .slider-container {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.RecruiteDiv{
+    position: relative;
+    top: -30px;
+}
+.slider {
+    display: flex;
+    transition: transform 0.8s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.slide img {
+    width: 25%; /* Set the width for four images in one slide */
+    height: auto;
+}
+.backrecruite{
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    background: linear-gradient(89.95deg, #fceb23, #fcaa23);
+    width: 100%;
+    height: 420px;
+
+}
+#head{
+    position: relative;
+    top: 10px;
+    left: calc(50% - 242px);
+    letter-spacing: 0.01em;
+    line-height: 100%;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 485px;
+    height: 40px;
+    color: #8C3333;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+#benifits1{
+    position: relative;
+    top: -250px;
+}
+
+.our{
+    color: #8C3333;
+}
+@media screen and (max-width:900px){
+    .RecruiteDiv{
+        position: relative;
+        top: 2100px;
+    }
+    .backrecruite{
+     
+        width: 100%;
+        height: 200px;
+    
+    }
+    #benifits1{
+        position: relative;
+        top: 1735px;
+    }
+}

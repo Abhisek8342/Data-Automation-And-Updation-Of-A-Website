@@ -1,0 +1,356 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.foo{
+    position: relative;
+    top: 400px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+/* Footer styles */
+footer {
+    background-color: whitesmoke;
+    color: #000;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+    height: 790px;
+}
+
+.logo {
+    flex: 1;
+}
+
+.logo img {
+    width: 144px; /* Adjust the size as needed */
+    height: 152px;
+   position: relative;
+   left: 120px;
+   top: 30px;
+}
+
+.call2{
+    position: absolute;
+    top: 70px;
+    left: 300px;
+    line-height: 2;
+}
+.ps{
+    margin-left: 15px;
+    font-size: 20px;
+}
+#colg{
+    width: 450px;
+    font-size: 15px;
+    position: relative;
+    left: 120px;
+    top: 30px;
+}
+
+.qlink{
+    position: relative;
+    left: 200px;
+    top: -10px;
+    display: flex;
+  
+}
+
+.quick-links,
+.important-links,
+.explore-links
+ {
+    flex: 1;
+    margin: 30px;
+
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 15px;
+}
+
+ul li a {
+    color: black;
+    text-decoration: none;
+  
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-media img {
+    width: 30px; /* Adjust the size as needed */
+    margin-right: 15px;
+}
+.social-media a img {
+     height:20px;
+    width: 22px;
+    }
+
+.social-media{
+    position:absolute;
+    top: 270px;
+    left: 120px;
+}
+.google-map{
+    height: 400px;
+    width: 350px;
+}
+
+.google-map iframe {
+    position: absolute;
+    top: 320px;
+   left: 60px;
+    height: 350px;
+    width: 400;
+    border: 0;
+}
+.college-activities{
+    position: relative;
+    left: 400px;
+    top: -100px;
+}
+
+.college-activities img {
+    width: 180px; /* Adjust the size as needed */
+    height: 150px;
+    margin: 15px;
+    cursor: pointer;
+    
+}
+
+.copyhr{
+    position: relative;
+    top: 20px;
+    left: -400px;
+}
+
+/* Lightbox styles */
+.lightbox {
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.lightbox-content {
+    max-width: 100%;
+    max-height: 100%;
+    width: 60%;
+    border: 1px solid #fff;
+}
+
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.image-6-icon {
+    position: absolute;
+    height: 95.5%;
+    width: 2.44%;
+    top: 0%;
+    right: 97.56%;
+    bottom: 3.65%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.image-7-icon {
+    position: absolute;
+    height: 95.5%;
+    width: 2.44%;
+    top:0%;
+    right: 0%;
+    bottom: 3.65%;
+    left: 97.56%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.image-6-icon1 {
+    position: absolute;
+    height: 3.74%;
+    width: 37.56%;
+    top: 750px;
+    right: 62.44%;
+    bottom: 0%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+ .image-6-icon2 {
+    position: absolute;
+    height: 3.74%;
+    width: 37.56%;
+    top: 750px;
+    left: 62.44%;
+    bottom: 0%;
+    right: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+} 
+.image-6-icon3 {
+    position: absolute;
+    height: 3.74%;
+    width: 40.56%;
+    top: 750px;
+    left: 37.56%;
+    bottom: 0%;
+    right: 37.56%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+} 
+
+@media screen and (max-width:800px){
+
+    .foo{
+        position: relative;
+        top: 2330px;
+    }
+
+    .image-6-icon {
+        display: none;
+    }
+    .image-7-icon {
+        display: none;
+    }
+    .image-6-icon1 {
+        display: none;
+    }
+     .image-6-icon2 {
+        display: none;
+    } 
+    .image-6-icon3 {
+       display: none;
+    } 
+    .logo img {
+        width: 140px; /* Adjust the size as needed */
+        height: 145px;
+       position: relative;
+       left: 60px;
+    }
+    
+    .call2{
+        position: absolute;
+        top: 70px;
+        left: 230px;
+        line-height: 2;
+    }
+    .ps{
+        margin-left: 13px;
+        font-size: 17px;
+    }
+    #colg{
+        width: 450px;
+        font-size: 14px;
+        position: relative;
+        left: 60px;
+        top: 30px;
+    }
+    
+    .qlink{
+        position: relative;
+        left: 20px;
+        top: 70px;
+        display: flex;
+      
+    }
+    .google-map{
+        height: 100px;
+        width: 250px;
+        
+    }
+    
+    .google-map iframe {
+        position: absolute;
+        top: 1030px;
+        left: 30px;
+        height: 260px;
+        width: 480px;
+        border: 0;
+    }
+    .social-media a img {
+        height:17px;
+        width: 16px;
+       }
+   
+   .social-media{
+       position:absolute;
+       top: 240px;
+       left: 70px;
+   }
+ 
+   .college-activities{
+    position: relative;
+    left: 20px;
+    top: -10px;
+}
+
+.college-activities img {
+    width: 130px; /* Adjust the size as needed */
+    height: 100px;
+    margin: 13px;
+    cursor: pointer;
+    
+}
+.copyhr{
+    position: relative;
+    top: 420px;
+    left: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 12px;
+    width: 410px;
+    margin-bottom: 20px;
+}
+.copyspan{
+    padding-bottom: 10px;
+}
+    
+    
+}
+
+
+
+

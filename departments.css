@@ -1,0 +1,443 @@
+.academic-zone {
+    position: relative;
+}
+.departmentDiv{
+    position: relative;
+    top: -220px;
+}
+.component-29-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid #e3c0c0;
+    box-sizing: border-box;
+}
+.department-icon {
+    position: absolute;
+    height: 40.91%;
+    width: 24.16%;
+    top: 18.18%;
+    right: 37.92%;
+    bottom: 40.91%;
+    left: 37.92%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.department {
+    position: absolute;
+    top: 68.18%;
+    left: 26.17%;
+    line-height: 24px;
+    font-weight: 600;
+}
+.component-29 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 298px;
+    height: 176px;
+    text-align: left;
+}
+.programmes {
+    position: absolute;
+    top: 68.18%;
+    left: 25.17%;
+    line-height: 24px;
+    font-weight: 600;
+}
+.component-30 {
+    position: absolute;
+    top: 0px;
+    left: 315px;
+    width: 298px;
+    height: 176px;
+}
+.component-31 {
+    position: absolute;
+    top: 0px;
+    left: 630px;
+    width: 298px;
+    height: 176px;
+}
+.admission {
+    position: absolute;
+    top: 68.18%;
+    left: 29.87%;
+    line-height: 24px;
+    font-weight: 600;
+}
+.component-32 {
+    position: absolute;
+    top: 0px;
+    left: 945px;
+    width: 298px;
+    height: 176px;
+}
+.component-34 {
+    position: relative;
+    width: 1243px;
+    height: 176px;
+    text-align: center;
+    font-size: 24px;
+    color: #000;
+    font-family: 'Open Sans';
+}
+.academic-zone-parent {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+    text-align: left;
+    font-size: 38px;
+    color: #c21717;
+    font-family: Bitter;
+}
+.component-30 :hover{
+    background-color: #c21717;
+    cursor: pointer;
+}
+.component-29 :hover{
+    background-color: #c21717;
+    cursor: pointer;
+}
+.component-31 :hover{
+    background-color: #c21717;
+    cursor: pointer;
+}
+.component-32 :hover{
+    background-color: #c21717;
+    cursor: pointer;
+}
+.rectangle2 {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 1000px;
+}
+#hrs{
+    width: 430px;
+    margin-top: 50px;
+   border-color: #c21717;
+   position: relative; 
+   left: 550px;
+   color:red;
+   text-align: center;
+}
+#tweets1{
+    height: 100px;
+    width: 400px;
+    margin: 0px 40px;
+    position: relative;
+    left: 1030px;
+}
+#tweets2{
+  height: 51px;
+  width: 400px;
+  background-image: linear-gradient(to right ,#39A7FF 60%,#87c3ffbf);
+  position: relative;
+  left: 1070px;
+  text-align: center;
+  color: aliceblue;
+padding-top: 6px;
+
+}
+#tweets3{
+    height: 51px;
+    width: 400px;
+    background-image: linear-gradient(to right,#5D9C59 60%,#98D8AA);
+    position: relative;
+    top: 77px;
+    left: 590px;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 6px;
+  }
+  .twt{
+    position: absolute;
+    top: 61px;
+  }
+  .prog{
+    position: absolute;
+    top: -15px;
+  }
+  .part1{
+    display: flexbox;
+    position: relative;
+  }
+  #progs1{
+    position: relative;
+    top: 80px;
+    left: 600px;
+    border: 2px solid gainsboro;
+    box-shadow: #fff;
+    border-radius:5px ;
+   border-bottom-right-radius: 28px;
+    height: 270px;
+    width: 380px;
+    padding: 2px 18px;
+   
+  }
+  #progs1 li{
+    list-style: none;
+    padding: 1px 3px;
+    font-size: 22px;
+    font-weight: 500;
+  }
+.latest{
+    position: absolute;
+    top: 100px;
+}
+.newshead{
+    position: relative;
+    top: 320px;
+    left: 590px;
+}
+#it{
+    height: 190px;
+    
+}
+#it1{
+    height: 190px;
+    
+}
+#it2{
+    height: 190px;
+    
+}
+#head1{
+    height: 51px;
+    width: 400px;
+    background-image:linear-gradient(to right,#FF9130 60%,#FFD099);
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 6px;
+}
+#newscont{
+    position: relative;
+    top: 340px;
+    left: 600px;
+    border: 3px solid gainsboro;
+    border-radius:5px ;
+   border-bottom-right-radius: 28px;
+    height: 400px;
+    width: 390px;
+    padding: 10px 18px;
+   
+}
+  
+.noticeb{
+    position: relative;
+    top: 63px;
+    left: 100px;
+}
+#note1{
+    height: 51px;
+    width: 400px;
+    background-image:linear-gradient(to right,#3D30A2 70%,#C2D9FF);
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 6px;
+}
+#noticelist{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    border: 3px solid gainsboro;
+    border-radius:5px ;
+   border-bottom-right-radius: 28px;
+    height: 760px;
+    width: 390px;
+    padding: 10px 15px;
+    background-color: #39A7FF;
+}
+#noticelist li{
+    list-style: none;
+    padding: 6px 6px;
+    background-color: #CDF5FD;
+    margin-top: 6px;
+    height: 58px;
+    border-radius: 5px;
+}
+#noticelist li :hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width:900px){
+    .departmentDiv{
+        position: relative;
+        top:10 px;
+        display: flex;
+        flex-direction: column;
+    }
+    .component-29-child {
+        position: absolute;
+       top: -150px;
+     
+    }
+    .academic-zone{
+        position: relative;
+        top: -150px;
+    }
+    .component-34 {
+        width: 500px;
+    }
+    .department-icon {
+        position: absolute;
+        height: 29.91%;
+        width: 22.16%;
+        top: -120px;
+    }
+    .department {
+        position: absolute;
+        top: -20.18%;
+        left: 18.17%;
+        line-height: 15px;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .component-29 {
+        position: absolute;
+       left: 20px;
+       height: 170px;
+       width: 200px;
+    }
+    .programmes {
+        position: absolute;
+        top: -20.18%;
+        left: 18.17%;
+        line-height: 15px;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .component-30 {
+         position: absolute;
+       left: 270px;
+       height: 170px;
+       width: 200px;
+    }
+    .component-31 {
+        position: absolute;
+        top: 200px;
+        left: 20px;
+        height: 170px;
+        width: 200px;
+    }
+    .admission {
+        position: absolute;
+        top: -20.18%;
+        left: 18.17%;
+        line-height: 15px;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .component-32 {
+        position: absolute;
+        top: 200px;
+       left: 270px;
+       height: 170px;
+       width: 200px;
+    }
+    
+    #hrs{
+        margin-top: 60px;
+       border-color: #c21717;
+       position: relative; 
+       left: 25px;
+       color:red;
+       top: 16px;
+       text-align: center;
+    }
+    .rectangle2 {
+       display: flex;
+       flex-direction: column;
+       height: 100%;
+    }
+  .noticeb{
+    position: relative;
+    left: 35px;
+    display: flex;
+    flex-direction: column;
+  }
+  .prog{
+
+    position: absolute;
+    top: 830px;
+    left: 20px;
+  }
+  #progs1{
+    position: relative;
+    top:200px;
+    left: 25px;
+    border: 2px solid gainsboro;
+    box-shadow: #fff;
+    border-radius:5px ;
+   border-bottom-right-radius: 28px;
+    height: 270px;
+    width: 380px;
+    padding: 2px 18px;
+   
+  }
+  #tweets3{
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    
+  }
+  .latest{
+    position: absolute;
+    top: 1000px;
+    left: 20px;
+}
+.newshead{
+    position: relative;
+    top: 330px;
+    left: 20px;
+}
+
+#newscont{
+    position: relative;
+    top: 340px;
+    left: 30px;
+    border: 3px solid gainsboro;
+    border-radius:5px ;
+   border-bottom-right-radius: 28px;
+    height: 400px;
+    width: 390px;
+    padding: 10px 18px;
+}
+
+#tweets2{
+  position: relative;
+  left: 30px;
+  top: 1350px;
+
+}
+  .twt{
+    position: absolute;
+    top: 500px;
+    left: 20px;
+  }
+  #tweets1{
+    height: 100px;
+    width: 400px;
+    position: relative;
+    top: 1400px;
+    left: 1px;
+
+}
+    
+}
